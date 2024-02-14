@@ -51,7 +51,8 @@ The Mathematica notebooks are used to simplify the KP Whitham system in differen
         (Note: I compared the system in the soliton limit for the above two notebooks to obtain results for general q).
 
   Steady KPWS soliton, ITO q:
-        Here I copied the calculations for the soliton limit, then wrote the system in terms of q instead of a. I also did some 
+        Here I copied the calculations for the soliton limit, then wrote the system in terms of q instead of a. 
+        I also did some 
         calculations of the analytical solutions,
         though these were mostly for my own reference and may not be helfpul. I haven't deleted them in case they are.
 
