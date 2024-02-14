@@ -8,7 +8,8 @@ The MATLAB files integrate the Boussinesq equation using a spectral IFRK4 method
         v_t = -gam*u_xxx + u_x - alpha*(u^2)_xx
 
         on [-L,L] with initial conditions u(x,0) and v(x,0).
-        This method is not used in the main numerical analysis, because it cannot integrate Riemann boundary conditions.
+        This method is not used in the main numerical analysis, because it cannot integrate 
+        Riemann boundary conditions.
         It is included for completeness' sake, but not recommended for use.
         
   Boussinesq_RK4_Riemann: 
@@ -24,22 +25,28 @@ The MATLAB files integrate the Boussinesq equation using a spectral IFRK4 method
         b) approach constant values at the edges of the domain, e.g. Riemann boundary conditions.
 
   Boussinesq_comparison_right_moving:
-       Integrates Riemann + soliton boundary conditions. This evolves to the interaction between a soliton and a rarefaction wave. 
-       The conditions are set such that the soliton starts to the right of the jump and moves to the right. The solution is compared
+       Integrates Riemann + soliton boundary conditions. This evolves to the interaction between a soliton
+       and a rarefaction wave. 
+       The conditions are set such that the soliton starts to the right of the jump and moves to the right.
+       The solution is compared
        at each time step to the analytical solution as described in the Project Summary and the results are plotted.
 
   Boussinesq_comparison_left_moving:
-       Integrates Riemann + soliton boundary conditions. This evolves to the interaction between a soliton and a rarefaction wave. 
-       The conditions are set such that the soliton starts to the right of the jump and moves to the left. The solution is compared
+       Integrates Riemann + soliton boundary conditions. This evolves to the interaction between a soliton 
+       and a rarefaction wave. 
+       The conditions are set such that the soliton starts to the right of the jump and moves to the left. 
+       The solution is compared
        at each time step to the analytical solution as described in the Project Summary and the results are plotted.
 
 The Mathematica notebooks are used to simplify the KP Whitham system in different cases. They are as follows:
   Steady KPWS soliton and harmonic limits:
-        This takes the full XY Whitham system and reduces it in the soliton and harmonic limits. We use a instead of q, and so
+        This takes the full XY Whitham system and reduces it in the soliton and harmonic limits. 
+        We use a instead of q, and so
         we are required to choose a sign of q. This notebook uses q > 0.
 
   Steady KPWS soliton and harmonic limits negative q:
-        This takes the full XY Whitham system and reduces it in the soliton and harmonic limits. We use a instead of q, and so
+        This takes the full XY Whitham system and reduces it in the soliton and harmonic limits.
+        We use a instead of q, and so
         we are required to choose a sign of q. This notebook uses q < 0.
         (Note: I compared the system in the soliton limit for the above two notebooks to obtain results for general q).
 
