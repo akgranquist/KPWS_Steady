@@ -41,10 +41,11 @@ The Mathematica notebooks are used to simplify the KP Whitham system in differen
   Steady KPWS soliton and harmonic limits negative q:
         This takes the full XY Whitham system and reduces it in the soliton and harmonic limits. We use a instead of q, and so
         we are required to choose a sign of q. This notebook uses q < 0.
-  (Note: I compared the system in the soliton limit for the above two notebooks to obtain results for general q).
+        (Note: I compared the system in the soliton limit for the above two notebooks to obtain results for general q).
 
   Steady KPWS soliton, ITO q:
-        Here I copied the calculations for the soliton limit, then wrote the system in terms of q instead of a. I also did some calculations of the analytical solutions,
+        Here I copied the calculations for the soliton limit, then wrote the system in terms of q instead of a. I also did some 
+        calculations of the analytical solutions,
         though these were mostly for my own reference and may not be helfpul. I haven't deleted them in case they are.
 
 
